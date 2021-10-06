@@ -52,7 +52,7 @@
         <div class="snippet">
           <p>
             let main = <input class="document" /> <input class="byId" />
-            <input class="openparen" /> <input class="head" />
+            <input class="openparen" /> <input class="main" />
             <input class="closeparen" />
           </p>
         </div>
@@ -76,9 +76,7 @@
         </p>
         <div class="snippet">
           <p>
-            let navigation = <input class="document" />
-            <input class="byClass" /> <input class="openparen" />
-            <input class="navigation" /> <input class="closeparen" />
+            let navigation = <input class="document" /> <input class="byClass" /> <input class="openparen" /> <input class="navs"> <input class="closeparen">
           </p>
         </div>
       </div>
@@ -111,10 +109,40 @@
           </p>
         </div>
       </div>
+      <h2>DOM Manipulation Part 2</h2>
+      <div class="q">
+        <p>
+          6. Write in the missing DOM method to add a 'submit' event listener to a button variable:
+        </p>
+        <div class="snippet">
+          <p>let button = document.createElement('button')</p>
+          <p>
+            button<input class="addEvent" /> <input class="openparen"> <input class="sub" /> , <input class="openparen"> <input class="closeparen"> <input class="arrow"> <input class="opencurly">
+            <div style="margin-left: 2%;">
+              <p>console.log('prints on button submit')</p>
+            </div>
+            <p> <input class="closecurly"> <input class="closeparen"></p>
+          </p>
+        </div>
+      </div>
+
+      <div class="q">
+        <p>
+          7. Write in the missing DOM method to add inner text that says 'hello and welcome to my webpage':
+        </p>
+        <div class="snippet">
+          <p>let h1 = document.createElement('h1')</p>
+          <p>
+            h1<input class="IT" /> = <input class="welcome">
+          </p>
+        </div>
+      </div>
+
+
       <h2>API's</h2>
       <div class="q">
         <p>
-          6. API stands for :
+          8. API stands for :
         </p>
         <div class="snippet">
           <p>
@@ -125,7 +153,7 @@
       </div>
       <div class="q">
         <p>
-          7. Write in the missing syntax for a setTimeout method:
+          9. Write in the missing syntax for a setTimeout method:
         </p>
         <div class="snippet">
           <p><input class="setTimeout"/> <input class="openparen" /> <input class="openparen"> <input class="closeparen"> <input class="arrow"> <input class="opencurly"> </p>
@@ -135,7 +163,7 @@
       </div>
       <div class="q">
         <p>
-          8. Write in the missing syntax elements to fetch the baseURL:
+          10. Write in the missing syntax elements to fetch the baseURL:
         </p>
         <div class="snippet">
           <p>let baseURL = 'https://aws.random.cat/meow' </p>
@@ -151,7 +179,7 @@
       </div>
       <div class="q">
         <p>
-          9. Write in the missing syntax elements to jsonify the fetched information inside of one .then statement, and console.log() the fetched information in a second.then statment:
+          11. Write in the missing syntax elements to jsonify the fetched information inside of one .then statement, and console.log() the fetched information in a second.then statment:
         </p>
         <div class="snippet">
           <p>let baseURL = 'https://aws.random.cat/meow' </p>
@@ -169,7 +197,7 @@
       </div>
       <div class="q">
         <p>
-          10. Write in the missing syntax elements to create 2 variables. One to hold an async fetch request, and the other to hold an awaited jsonified response:
+          12. Write in the missing syntax elements to create an async function, and utilizes the 'await' keyword to fetch, and jsonify the information that comes from the api:
         </p>
         <div class="snippet">
           <p>let baseURL = 'https://aws.random.cat/meow' </p>

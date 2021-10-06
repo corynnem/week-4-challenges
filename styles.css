@@ -7,7 +7,6 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: #f8edeb;
-  /* font-weight: bold; */
 }
 h1,
 h3 {
@@ -78,7 +77,7 @@ p input, p textarea {
   width: 35px
 }
 
-.head,
+
 .ul,
 .log {
   width: 50px
@@ -90,6 +89,7 @@ p input, p textarea {
   width: 60px
 }
 
+.main,
 .name,
 .default,
 .length,
@@ -112,7 +112,8 @@ p input, p textarea {
 
 
 .baseURL,
-.console {
+.console,
+.sub {
   width: 80px;
 }
 
@@ -124,14 +125,15 @@ p input, p textarea {
 }
 
 .reverse,
-.navigation,
 .application,
 .programming,
-.setTimeout {
+.setTimeout,
+.IT  {
   width: 110px
 }
 
-.splice {
+.splice,
+.navs {
   width: 130px;
 }
 
@@ -140,12 +142,20 @@ p input, p textarea {
 }
 
 .push,
-.byId {
+.byId{
   width: 150px
 }
 
-.byClass {
+.addEvent {
+  width: 170px;
+}
+
+.byClass{
   width: 230px
+}
+
+.welcome {
+  width: 340px;
 }
 
 .stylesheet,
@@ -159,12 +169,6 @@ height: 170px
   width: 500px;
 }
 
-#navbar {
-  height: 800px;
-  width: 600px;
-  max-width: 80%;
-}
-
 
 
 .cardsection,
@@ -173,18 +177,6 @@ height: 170px
   flex-direction: row;
 }
 
-
-.bootstrapcard {
-  margin-left: -14vw;
-} 
-.bootstrapnavbar {
-  margin-left: -18em;
-} 
-
-
-.navbar {
- max-width: 105%;
-}
 
 #text {
   height: 50rem;

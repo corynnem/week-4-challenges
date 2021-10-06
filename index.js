@@ -88,8 +88,8 @@ const solved = (e, i) => {
       e.target.value === ".querySelector"
         ? (allInputs[i].style = "background-color: #caffbf;")
         : (allInputs[i].style = "background-color: #ffadad;");
-    } else if (e.target.className === "head") {
-      e.target.value === "'head'" || e.target.value === '"head"'
+    } else if (e.target.className === "main") {
+      e.target.value === "'main'" || e.target.value === '"main"'
         ? (allInputs[i].style = "background-color: #caffbf;")
         : (allInputs[i].style = "background-color: #ffadad;");
     } else if (e.target.className === "ul") {
@@ -102,6 +102,10 @@ const solved = (e, i) => {
         : (allInputs[i].style = "background-color: #ffadad;");
     } else if (e.target.className === "p") {
       e.target.value === "'p'" || e.target.value === '"p"'
+        ? (allInputs[i].style = "background-color: #caffbf;")
+        : (allInputs[i].style = "background-color: #ffadad;");
+    } else if (e.target.className === "navs") {
+      e.target.value === "'navigation'" || e.target.value === '"navigation"'
         ? (allInputs[i].style = "background-color: #caffbf;")
         : (allInputs[i].style = "background-color: #ffadad;");
     } else if (e.target.className === "flex") {
@@ -152,7 +156,24 @@ const solved = (e, i) => {
       e.target.value === ".log"
         ? (allInputs[i].style = "background-color: #caffbf;")
         : (allInputs[i].style = "background-color: #ffadad;");
+    } else if (e.target.className === "addEvent") {
+      e.target.value === ".addEventListener"
+        ? (allInputs[i].style = "background-color: #caffbf;")
+        : (allInputs[i].style = "background-color: #ffadad;");
+    } else if (e.target.className === "sub") {
+      e.target.value === "'submit'" || e.target.value === '"submit"'
+        ? (allInputs[i].style = "background-color: #caffbf;")
+        : (allInputs[i].style = "background-color: #ffadad;");
+    }  else if (e.target.className === "IT") {
+      e.target.value === ".innerText"
+        ? (allInputs[i].style = "background-color: #caffbf;")
+        : (allInputs[i].style = "background-color: #ffadad;");
+    } else if (e.target.className === "welcome") {
+      e.target.value === "'hello and welcome to my webpage'" || e.target.value === '"hello and welcome to my webpage"'
+        ? (allInputs[i].style = "background-color: #caffbf;")
+        : (allInputs[i].style = "background-color: #ffadad;");
     } 
+    
     
     
     
