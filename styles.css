@@ -1,0 +1,192 @@
+/* code font */
+/* font-family: 'Roboto Mono', monospace; */
+
+/* sans serif font */
+/* font-family: 'Inter', sans-serif; */
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8edeb;
+  /* font-weight: bold; */
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+p input, p textarea {
+  font-family: "Roboto Mono", monospace;
+  border: none;
+  font-weight: bold;
+}
+
+.navsection p textarea, .cardsection p textarea {
+  margin-left: -45%;
+}
+
+.q {
+  width: 88%;
+  padding: 1%;
+  background-color: #ffd7ba;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  
+}
+
+.qT{
+  width: 88%;
+  padding: 8%;
+  background-color: #ffd7ba;
+  margin-bottom: 1%;
+  border-radius: 20px;
+}
+
+.file {
+  text-align: center;
+}
+
+.snippet {
+  text-align: left;
+  margin-left: 15vw;
+}
+
+#challenges {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+
+.opencurly,
+.closecurly,
+.openbracket,
+.closebracket,
+.openparen,
+.zero,
+.closeparen,
+.questionmark,
+.semicolon,
+.colon,
+.comma,
+.one  {
+  width: 20px;
+}
+
+
+.p,
+.arrow {
+  width: 35px
+}
+
+.head,
+.ul,
+.log {
+  width: 50px
+}
+
+
+.async,
+.await {
+  width: 60px
+}
+
+.name,
+.default,
+.length,
+.pop,
+.keys,
+.style,
+.fetch,
+.then {
+  width: 65px;
+}
+
+.Object,
+.person,
+.function,
+.values,
+.flex,
+.json {
+  width: 70px;
+}
+
+
+.baseURL,
+.console {
+  width: 80px;
+}
+
+.document,
+.display,
+.interface,
+.response {
+  width: 90px
+}
+
+.reverse,
+.navigation,
+.application,
+.programming,
+.setTimeout {
+  width: 110px
+}
+
+.splice {
+  width: 130px;
+}
+
+.query {
+  width: 140px
+}
+
+.push,
+.byId {
+  width: 150px
+}
+
+.byClass {
+  width: 230px
+}
+
+.stylesheet,
+.script {
+width: 500px;
+height: 170px
+}
+
+#card{
+  height: 300px;
+  width: 500px;
+}
+
+#navbar {
+  height: 800px;
+  width: 600px;
+  max-width: 80%;
+}
+
+
+
+.cardsection,
+.navsection {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.bootstrapcard {
+  margin-left: -14vw;
+} 
+.bootstrapnavbar {
+  margin-left: -18em;
+} 
+
+
+.navbar {
+ max-width: 105%;
+}
+
+#text {
+  height: 50rem;
+  margin-left: 25%;
+}
