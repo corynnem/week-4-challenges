@@ -185,15 +185,3 @@ for (let i = 0; i < allInputs.length; i++) {
 }
 
 
-
-// let baseURL = 'https://aws.random.cat/meow'
-
-// async function axlotl () {
-//   let response = await fetch(baseURL, {
-//     method: 'GET'
-//   })
-//   let json = await response.json()
-//   console.log(json)
-// }
-
-// axlotl()
