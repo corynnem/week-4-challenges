@@ -5,7 +5,9 @@ let allInputs = [...inputs, ...textareas];
 
 
 const solved = (e, i) => {
-  if (e.target.value === "") {
+  if(e.keyCode === 13 ) {
+    inputs[i + 1].focus()
+} else if (e.target.value === "") {
     allInputs[i].style = "background-color: #ffadad;";
   } else if(e.target.value === e.target.className && e.target.value !== "") {
     allInputs[i].style = "background-color: #caffbf;";
@@ -172,31 +174,26 @@ const solved = (e, i) => {
       e.target.value === "'hello and welcome to my webpage'" || e.target.value === '"hello and welcome to my webpage"'
         ? (allInputs[i].style = "background-color: #caffbf;")
         : (allInputs[i].style = "background-color: #ffadad;");
-    } 
-    
-    
-    
-    
-    else {
+    } else {
       allInputs[i].style = "background-color: #ffadad;";
     }
   }
 };
 
 for (let i = 0; i < allInputs.length; i++) {
-  allInputs[i].addEventListener("change", (e) => solved(e, i));
+  allInputs[i].addEventListener("keyup", (e) => solved(e, i));
 }
 
 
 
-let baseURL = 'https://aws.random.cat/meow'
+// let baseURL = 'https://aws.random.cat/meow'
 
-async function axlotl () {
-  let response = await fetch(baseURL, {
-    method: 'GET'
-  })
-  let json = await response.json()
-  console.log(json)
-}
+// async function axlotl () {
+//   let response = await fetch(baseURL, {
+//     method: 'GET'
+//   })
+//   let json = await response.json()
+//   console.log(json)
+// }
 
-axlotl()
+// axlotl()
